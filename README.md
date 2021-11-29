@@ -1,8 +1,8 @@
 # Summary
 
-gpio\_sysfs is a simple, cross-platform GPIO library that interacts with sysfs
-without any gem dependencies.  This allows this library to interact with a
-variety of GPIO interfaces from various vendors with ease.
+gpio\_sysfs is a simple, cross-platform GPIO library for Ruby that interacts
+with sysfs without any gem dependencies.  This allows this library to interact
+with a variety of GPIO interfaces from various vendors with ease.
 
 Unlike some similar libraries, gpio\_sysfs does not read and write to
 `/dev/mem`, which requires the root user to be running the code.  The user only
